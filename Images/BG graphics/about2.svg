@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="518px" height="685px" viewBox="0 0 518 685" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>about2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Portfolio-Desktop" transform="translate(-922.000000, -1339.000000)">
+            <g id="About-me" transform="translate(-29.000000, 1329.000000)">
+                <g id="about2" transform="translate(959.000000, 0.000000)">
+                    <circle id="Oval-4" stroke="#CC6356" stroke-width="15" cx="65" cy="290" r="65"></circle>
+                    <circle id="Oval-4" stroke="#FCBF78" stroke-width="15" cx="436" cy="502" r="105"></circle>
+                    <circle id="Oval-4" stroke="#F8F8F8" stroke-width="15" cx="496" cy="622" r="65"></circle>
+                    <circle id="Oval-5" stroke="#F8F8F8" stroke-width="10" cx="110" cy="235" r="40"></circle>
+                    <polygon id="Triangle" stroke="#625673" stroke-width="6" stroke-linejoin="round" transform="translate(389.893259, 45.893259) rotate(-23.000000) translate(-389.893259, -45.893259) " points="389.893259 10.8932594 424.893259 80.8932594 354.893259 80.8932594"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

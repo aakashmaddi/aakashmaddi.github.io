@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="753px" height="180px" viewBox="0 0 753 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>projects1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Portfolio-Desktop" transform="translate(0.000000, -673.000000)" stroke-width="6">
+            <g id="projects" transform="translate(-98.000000, 676.000000)">
+                <g id="projects1">
+                    <polygon id="Triangle" stroke="#F1807F" transform="translate(818.000000, 30.000000) rotate(180.000000) translate(-818.000000, -30.000000) " points="818 0 848 60 788 60"></polygon>
+                    <polygon id="Triangle" stroke="#93CCC6" transform="translate(86.379281, 106.379281) rotate(-23.000000) translate(-86.379281, -106.379281) " points="86.3792809 40.5030526 152.255509 172.255509 20.5030526 172.255509"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

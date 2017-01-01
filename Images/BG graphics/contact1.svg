@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="253px" height="604px" viewBox="0 0 253 604" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>contact1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Portfolio-Desktop" transform="translate(-54.000000, -2809.000000)">
+            <g id="Contact" transform="translate(0.000000, 2748.000000)">
+                <g id="contact1" transform="translate(54.000000, 51.000000)">
+                    <rect id="Rectangle-8" stroke="#F1807F" stroke-width="6" transform="translate(25.634255, 329.634255) rotate(20.000000) translate(-25.634255, -329.634255) " x="5.63425528" y="309.634255" width="40" height="40" rx="12"></rect>
+                    <rect id="Rectangle-8" stroke="#F7C873" stroke-width="7" transform="translate(204.634255, 581.634255) rotate(-20.000000) translate(-204.634255, -581.634255) " x="179.634255" y="556.634255" width="50" height="50" rx="12"></rect>
+                    <polygon id="Star" stroke="#F8F8F8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" transform="translate(217.268511, 51.268511) scale(-1, -1) rotate(20.000000) translate(-217.268511, -51.268511) " points="217.268511 67.2685108 193.7571 83.6291903 202.051606 56.2127825 179.22625 38.9078308 207.863946 38.3242385 217.268511 11.2685106 226.673075 38.3242385 255.310771 38.9078308 232.485415 56.2127825 240.779921 83.6291903"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

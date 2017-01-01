@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="817px" height="491px" viewBox="0 0 817 491" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>resume2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Portfolio-Desktop" transform="translate(-623.000000, -2253.000000)">
+            <g id="Resume" transform="translate(0.000000, 2171.000000)">
+                <g id="bg-elements" transform="translate(31.000000, 0.000000)">
+                    <g id="resume2" transform="translate(0.000000, 82.000000)">
+                        <circle id="Oval-9" fill="#EA715F" cx="622" cy="30" r="30"></circle>
+                        <circle id="Oval-9" fill="#F7C873" cx="714" cy="466" r="25"></circle>
+                        <circle id="Oval-9" fill="#56375D" cx="1389" cy="370" r="40"></circle>
+                        <polygon id="Star" stroke="#A55164" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" transform="translate(783.859947, 215.859947) rotate(20.000000) translate(-783.859947, -215.859947) " points="783.859947 229.859947 763.287463 244.175542 770.545155 220.186185 750.572969 205.044352 775.630953 204.533709 783.859947 180.859947 792.08894 204.533709 817.146925 205.044352 797.174738 220.186185 804.432431 244.175542"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

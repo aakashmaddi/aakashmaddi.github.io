@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="495px" height="464px" viewBox="0 0 495 464" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>hero1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Portfolio-Desktop" transform="translate(-945.000000, -171.000000)">
+            <g id="Hero">
+                <g id="hero1" transform="translate(948.000000, 162.000000)">
+                    <polygon id="Star" stroke="#FCBF78" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" transform="translate(181.859947, 44.859947) rotate(20.000000) translate(-181.859947, -44.859947) " points="181.859947 58.859947 161.287463 73.1755415 168.545155 49.1861847 148.572969 34.0443519 173.630953 33.5337087 181.859947 9.85994674 190.08894 33.5337087 215.146925 34.0443519 195.174738 49.1861847 202.432431 73.1755415"></polygon>
+                    <polygon id="Star" stroke="#56375D" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" transform="translate(481.859947, 214.859947) rotate(20.000000) translate(-481.859947, -214.859947) " points="481.859947 228.859947 461.287463 243.175542 468.545155 219.186185 448.572969 204.044352 473.630953 203.533709 481.859947 179.859947 490.08894 203.533709 515.146925 204.044352 495.174738 219.186185 502.432431 243.175542"></polygon>
+                    <rect id="Rectangle-8" stroke="#66789D" stroke-width="6" transform="translate(274.042819, 217.042819) rotate(-20.000000) translate(-274.042819, -217.042819) " x="249.042819" y="192.042819" width="50" height="50" rx="12"></rect>
+                    <circle id="Oval-6" stroke="#ABEEE6" stroke-width="6" cx="29" cy="387" r="29"></circle>
+                    <circle id="Oval-6" stroke="#A55164" stroke-width="6" fill="#56375D" cx="389" cy="460" r="10"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

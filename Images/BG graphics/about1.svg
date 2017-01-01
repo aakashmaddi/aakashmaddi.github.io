@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="738px" height="651px" viewBox="0 0 738 651" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>about1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Portfolio-Desktop" transform="translate(0.000000, -1355.000000)">
+            <g id="About-me" transform="translate(-29.000000, 1329.000000)">
+                <g id="about1" transform="translate(0.000000, 18.000000)">
+                    <circle id="Oval-6" fill="#A55164" cx="29" cy="272" r="29"></circle>
+                    <circle id="Oval-6" stroke="#A55164" stroke-width="6" cx="711" cy="181" r="29"></circle>
+                    <circle id="v" stroke="#FCBF78" stroke-width="7" cx="129" cy="539" r="25"></circle>
+                    <path d="M79,651 C114.898509,651 144,621.898509 144,586 C144,550.101491 114.898509,521 79,521 C43.1014913,521 14,550.101491 14,586" id="Oval-4" stroke="#CC6356" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" transform="translate(79.000000, 586.000000) scale(-1, -1) translate(-79.000000, -586.000000) "></path>
+                    <path d="M420.90125,361.597962 L407.11125,347.807965 C410.17,343.659215 412,338.549215 412,333.000465 C412,319.192965 400.8075,308.000465 387,308.000465 C373.1925,308.000465 362,319.192965 362,333.000465 C362,346.807965 373.1925,358.000465 387,358.000465 C392.54875,358.000465 397.65875,356.170464 401.8075,353.111715 L415.5975,366.901718 C417.0625,368.366719 419.4375,368.365469 420.90125,366.901718 C422.36625,365.436716 422.36625,363.062964 420.90125,361.597962 Z M402.64,343.335465 C401.24625,345.440465 399.43875,347.246715 397.335,348.639215 C394.37,350.601715 390.82125,351.750465 387,351.750465 C376.645,351.750465 368.25,343.356715 368.25,333.000465 C368.25,322.645465 376.645,314.250465 387,314.250465 C397.355,314.250465 405.75,322.645465 405.75,333.000465 C405.75,336.821715 404.60125,340.370465 402.64,343.335465 Z" id="Page-1" fill="#FCBF78"></path>
+                    <polygon id="Triangle" stroke="#50E3C2" stroke-width="6" stroke-linejoin="round" transform="translate(749.500000, 35.500000) rotate(23.000000) translate(-749.500000, -35.500000) " points="749.5 9 776 62 723 62"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
