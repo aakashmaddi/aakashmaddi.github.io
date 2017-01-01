@@ -24,6 +24,27 @@ $(document).ready(function(){
     });
 });
 
+//Circle puck click
+$(document).ready(function () {
+    $('.circle-puck').click(function(e) {
+        $('#nav-primary, #nav-primary-mobile').removeClass('nav-up').addClass('nav-down');
+        $('.circle-puck').hide(100)
+    });
+
+    if(screen.width<719){
+        $('#nav-primary').hide();
+        $('#nav-primary-mobile').show();
+        $('.section-div').removeClass('in w55 w40');
+        $('.c-text').removeClass('in fr');
+        $('.footer-nav ul').removeClass("w55");
+
+        $("#proj").removeClass("fr");
+    }
+    else {
+        $('#nav-primary-mobile').hide();
+    }
+});
+
 
 // Hide Header on on scroll down
 var didScroll;
@@ -46,7 +67,12 @@ setInterval(function() {
 
 function hasScrolled() {
     var st = $(this).scrollTop();
-    navbarHeight = $('#nav-primary').outerHeight();
+    if($('#nav-primary-mobile').is(":visible")){
+        navbarHeight = $('#nav-primary-mobile').outerHeight();
+    }
+    else {
+        navbarHeight = $('#nav-primary').outerHeight();
+    }
 
     // Make sure they scroll more than delta
     if(Math.abs(lastScrollTop - st) <= delta)
@@ -56,11 +82,13 @@ function hasScrolled() {
     // This is necessary so you never see what is "behind" the navbar.
     if (st > lastScrollTop && st > navbarHeight){
         // Scroll Down
-        $('#nav-primary').removeClass('nav-down').addClass('nav-up');
+        $('#nav-primary, #nav-primary-mobile').removeClass('nav-down').addClass('nav-up');
+        $('.circle-puck').show(300);
     } else {
         // Scroll Up
         if(st + $(window).height() < $(document).height()) {
-            $('#nav-primary').removeClass('nav-up').addClass('nav-down');
+            $('#nav-primary, #nav-primary-mobile').removeClass('nav-up').addClass('nav-down');
+            $('.circle-puck').hide(300);
         }
     }
 

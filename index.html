@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Aakash Maddi - UX Designer, Engineer and a Forward Thinker</title>
 
     <!--Favicons-->
@@ -24,15 +26,29 @@
 <body>
 
     <!--Primary Navigation Starts-->
+    <div class="circle-puck" style="display: none;"><img src="Images/triangle.svg"></img></div>
     <nav class="nav-down" id="nav-primary">
         <ul>
             <li class="in"><a href="#projects">PROJECTS</a></li>
             <li class="in"><a href="#about_me">ABOUT ME</a></li>
-            <li class="in"><a href="#hero"><img class="nav-logo" alt="Aakash Maddi's Logo" src="Images/logo_gray.png"></a></li>
+            <li class="in"><a href="index.html"><img class="nav-logo" alt="Aakash Maddi's Logo" src="Images/logo_gray.png"></a></li>
             <li class="in"><a href="#resume">RESUME</a></li>
             <li class="in"><a href="#contact">REACH ME</a></li>
         </ul>
     </nav>
+
+    <nav class="nav-down" id="nav-primary-mobile">
+        <ul>
+            <!--<li class="in"><a href="#projects">PROJECTS</a></li>-->
+            <!--<li class="in"><a href="#about_me">ABOUT ME</a></li>-->
+            <li><a href="index.html"><img class="nav-logo" alt="Aakash Maddi's Logo" src="Images/logo_gray.png"></a></li>
+            <!--<li class="in"><a href="#resume">RESUME</a></li>-->
+            <!--<li class="in"><a href="#contact">REACH ME</a></li>-->
+        </ul>
+    </nav>
+
+
+
     <!--Primary Navigation Ends-->
 
     <!--Hero Section Begins-->
@@ -43,7 +59,7 @@
 
 
         <h1 class="hero-intro" style="position: relative;">Hi, I am Aakash.</h1>
-        <h3 class="hero-sub">A Passionate UX Designer, Engineer and a Forward Thinker.</h3>
+        <h3 class="hero-sub">A Passionate UX Designer, Mechanical Engineer and a Forward Thinker.</h3>
 
     </section>
     <!--Hero Section Ends-->
@@ -65,11 +81,11 @@
                 <div class="in tag"><a href="">MISC.</a></div>
             </div>
 
-            <div class="projects-all" id="projects_all"><a href="/projects.html">SEE ALL MY WORK</a></div>
+            <div class="projects-all" id="projects_all"><a href="projects.html">SEE ALL MY WORK</a></div>
 
         </div>
         <div class="in section-div w40">
-            <img class="fr" src="Images/project%20_portfolio.svg">
+            <img class="fr" id="proj" src="Images/project%20_portfolio.svg">
         </div>
     </section>
     <!--Projects Section Ends-->
@@ -161,11 +177,11 @@
             </ul>
         </div>
 
-        <div class="in">
+        <div class="in c-text">
             <p><span>© 2016 Copyrights Reserved</span>, unless bribed with a Cheesecake.</p>
         </div>
 
-        <div class="in fr">
+        <div class="in fr c-text">
             <p class="darkside">All the graphics were made with love and passion for the darkside.</p>
         </div>
     </footer>

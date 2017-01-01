@@ -66,6 +66,27 @@ body{
     position: absolute;
   }
 
+  .circle-puck{
+    background: #FFFFFF;
+    border-radius: 50px;
+    padding: 12px;
+    width: 36px;
+    height: 36px;
+    -webkit-box-shadow: 0 2px 6px 0 rgba(102,102,102,0.7);
+    -moz-box-shadow: 0 2px 6px 0 rgba(102,102,102,0.7);
+    box-shadow: 0 2px 6px 0 rgba(102,102,102,0.7);
+    z-index: 99999;
+    position: fixed;
+    text-align: center;
+    top: 30px;
+    right: 30px;
+
+    img{
+      width: 30px;
+      height: 30px;
+    }
+  }
+
   ////Pure CSS Parallax
   //.parallax {
   //  perspective: 1px;
@@ -898,11 +919,11 @@ body{
         padding: 30px 0;
 
         li{
-          width: 120px;
-          padding: 0 24px;
+          width: 110px;
+          padding: 0 12px;
 
           a {
-            font-size: 22px;
+            font-size: 18px;
             line-height: 30px;
           }
 
@@ -919,18 +940,18 @@ body{
     }
 
     section {
-      padding: 60px 80px;
+      padding: 60px 40px;
 
       .section-div {
 
         .section-title {
-          font-size: 128px;
-          letter-spacing: -14px;
-          line-height: 152px;
+          font-size: 112px;
+          letter-spacing: -12px;
+          line-height: 144px;
         }
 
         .section-text{
-          font-size: 20px;
+          font-size: 18px;
           line-height: 30px;
         }
 
@@ -965,7 +986,7 @@ body{
         top: 150px;
 
         img{
-          width: 300px;
+          width: 250px;
         }
       }
 
@@ -973,20 +994,26 @@ body{
         top: 150px;
 
         img{
-          width: 320px;
+          width: 270px;
         }
       }
     }
 
     #projects {
-      padding: 60px 80px;
+      padding: 60px 40px;
 
       .section-div.w40{
-        margin-left: 30px;
+        margin-left: 20px;
+
+        img{
+          width: 250px;
+          position: relative;
+          top:80px;
+        }
       }
 
       .section-text{
-        margin-bottom: 30px;
+        margin-bottom: 18px;
       }
 
       .project-tags{
@@ -994,29 +1021,34 @@ body{
 
         .tag {
           width: 140px;
-          margin: 0 24px 30px 0;
+          margin: 0 18px 18px 0;
         }
+      }
+
+      .projects-all{
+        width: 302px;
       }
 
       .pro1{
-        top: 490px;
-
-        img{
-          width: 520px;
-        }
-      }
-
-      .pro2{
-        right: 60px;
+        top: 500px;
 
         img{
           width: 400px;
         }
       }
 
+      .pro2{
+        right: 40px;
+
+        img{
+          width: 300px;
+        }
+      }
+
     }
 
     #about_me{
+      padding: 40px;
 
       .section-text{
         width: 90%;
@@ -1035,7 +1067,7 @@ body{
         top: 1120px;
 
         img{
-          width: 560px;
+          width: 380px;
         }
       }
 
@@ -1043,7 +1075,7 @@ body{
         top: 1120px;
 
         img{
-          width: 360px;
+          width: 230px;
         }
       }
     }
@@ -1052,7 +1084,7 @@ body{
       padding: 60px;
 
       #res{
-        width: 360px;
+        width: 300px;
         top: -60px;
       }
 
@@ -1063,57 +1095,340 @@ body{
       }
 
       .res1{
-        top: 1840px;
+        top: 1810px;
         img{
-          width: 220px;
+          width: 180px;
         }
       }
 
       .res2{
         img{
-          width: 550px;
+          width: 380px;
         }
       }
     }
 
     #contact{
-      padding: 60px 80px;
+      padding: 60px;
+
+      .section-title{
+        margin-bottom: 30px;
+      }
 
       .contact-buttons{
-        width: 60% !important;
+        width: 80% !important;
 
         .contact-button{
           margin: 0 6px;
+          padding: 0 12px;
           width: 80px;
         }
       }
       .con1{
-        left: 20px;
-        top: 2380px;
+        left: -20px;
+        top: 2360px;
 
         img{
-          width: 210px;
+          width: 180px;
         }
       }
 
       .con2{
         top: 2360px;
         img{
-          width: 320px;
+          width: 270px;
         }
       }
     }
 
-    .footer-nav{
-      ul{
-        width: 80%;
+    footer {
+      padding: 18px 30px;
+
+      .footer-nav {
+        ul {
+          width: 98%;
+        }
+      }
+
+      p{
+        font-size: 11px;
+        line-height: 18px;
       }
     }
 
   }
 
   @media only screen and(min-width: 320px) and (max-width: 719px){
+    #nav-primary-mobile{
+      height: 70px;
+      z-index: 9999;
 
+      background-color: rgba(255, 255, 255, 0.8);
+      position: fixed;
+      top: 0;
+      width: 100%;
+
+      .nav-transition;
+
+      ul{
+        padding: 10px 0;
+        list-style: none;
+        margin: 0;
+
+        li{
+          width: 100px;
+          margin: 0 auto;
+          text-align: center;
+
+          a {
+            font-size: 16px;
+            line-height: 30px;
+          }
+
+          .nav-logo{
+            width: 80px;
+          }
+        }
+      }
+
+    }
+
+    .nav-up{
+      top: -100px !important;
+    }
+
+    section {
+      padding: 60px 20px;
+
+      .section-div {
+        text-align: center;
+
+        .section-title {
+          font-size: 84px;
+          letter-spacing: -8px;
+          line-height: 96px;
+          text-align: center;
+        }
+
+        .section-text{
+          font-size: 14px;
+          line-height: 24px;
+        }
+
+      }
+
+    }
+
+    #hero {
+      padding: 80px 20px;
+
+      .hero-intro {
+        font-size: 32px;
+        color: #EC7263;
+        letter-spacing: -3px;
+        line-height: 84px;
+        text-align: center;
+        margin: 0;
+      }
+
+      .hero-sub {
+        font-size: 22px;
+        color: #F1807F;
+        letter-spacing: -2.4px;
+        line-height: 30px;
+        text-align: center;
+        margin: 0 auto;
+        width: 300px;
+      }
+
+      .hero1{
+        left: 10px;
+        top: 60px;
+
+        img{
+          width: 180px;
+        }
+      }
+
+      .hero2{
+        top: 100px;
+
+        img{
+          width: 180px;
+        }
+      }
+    }
+
+    #projects {
+      padding: 40px 20px;
+
+      .section-div{
+
+        img{
+          width: 180px;
+          margin: 18px auto 0 auto!important;
+        }
+      }
+
+      .section-text{
+        margin-bottom: 18px;
+      }
+
+      .project-tags{
+        margin-left: 12px;
+
+        .tag {
+          width: 120px;
+          margin: 0 12px 12px 0;
+        }
+      }
+
+      .projects-all{
+        width: 258px;
+        margin: 0 auto;
+      }
+
+      .pro1{
+        top: 330px;
+
+        img{
+          width: 220px;
+        }
+      }
+
+      .pro2{
+        right: 20px;
+        top: 360px;
+
+        img{
+          width: 180px;
+        }
+      }
+
+    }
+
+    #about_me{
+      padding: 20px;
+
+      .section-title{
+        font-size: 72px;
+      }
+
+      .section-text{
+        width: 100%;
+      }
+
+      .img{
+        width: 220px;
+        margin: 30px auto 36px auto;
+
+        img{
+          width: 220px;
+        }
+      }
+
+      .ab1{
+        top: 1030px;
+
+        img{
+          width: 250px;
+        }
+      }
+
+      .ab2{
+        top: 1050px;
+
+        img{
+          width: 150px;
+        }
+      }
+    }
+
+    #resume{
+      padding: 40px;
+
+      #res{
+        width: 300px;
+        top: -60px;
+        display: none;
+      }
+
+      .section-text{
+        width: 90%;
+        margin-bottom: 24px;
+      }
+
+      .resume-btn{
+        font-size: 16px;
+        width: 240px;
+        margin: 0 auto 30px auto;
+        //margin-left: 0;
+      }
+
+      .res1{
+        top: 1800px;
+        img{
+          width: 140px;
+        }
+      }
+
+      .res2{
+        img{
+          width: 200px;
+        }
+      }
+    }
+
+    #contact{
+      padding: 20px;
+
+      .section-title{
+        margin-bottom: 30px;
+      }
+
+      .contact-buttons{
+        width: 85% !important;
+
+        .contact-button{
+          margin: 0 6px;
+          padding: 0 12px;
+          width: 80px;
+        }
+      }
+      .con1{
+        left: 0;
+        top: 2080px;
+
+        img{
+          width: 70px;
+        }
+      }
+
+      .con2{
+        top: 2050px;
+        img{
+          width: 180px;
+        }
+      }
+    }
+
+    footer {
+      padding: 18px 30px;
+
+      .footer-nav {
+        ul {
+          width: 96%;
+        }
+      }
+      .c-text{
+        text-align: center;
+      }
+
+      p{
+        font-size: 11px;
+        line-height: 18px;
+      }
+    }
   }
 
 
