@@ -51,6 +51,10 @@ $(document).ready(function () {
         $('.circle-puck').hide(100)
     });
 
+    $('.button').off().on('click', function () {
+       $(this).find('a').get(0).click();
+    });
+
     if(screen.width<720){
         $('#nav-primary').hide();
         $('#nav-primary-mobile').show();
