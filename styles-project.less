@@ -21,6 +21,10 @@ body {
     display: inline-block;
   }
 
+  .none{
+    display: none;
+  }
+
   .fl {
     float: left;
   }
@@ -184,6 +188,12 @@ body {
       width: 50%;
       margin: 30px auto;
       padding: 0;
+      text-align: center;
+
+      ul{
+        padding: 0;
+      }
+
       li {
         background-color: #B6D5E1;
         border-radius: 50px;
@@ -559,13 +569,6 @@ body {
 
         ul{
 
-          @media only screen and (min-width: 414px) and (max-width: 719px){
-            padding-left: 30px;
-          }
-
-          @media only screen and (min-width: 320px) and (max-width: 413px){
-            padding-left: 12px;
-          }
 
           li{
             margin-bottom: 18px;

@@ -62,10 +62,21 @@ $(document).ready(function () {
 
         $('.p-app').removeClass('in w50');
         if(screen.width<=375){
+            $('#nav-primary-mobile ul li').css({'width':'75px'});
+
+            $('.footer-nav ul').css({'padding-left':'0'});
+
             $('.p-hero .p-tags ul').css({'padding-left':'12px'});
+            if(screen.width<375) {
+                $('.p-hero .p-tags ul li').css({'width': '100px'});
+
+                $('.footer-nav ul').css({'padding-left':'24px'});
+
+                $('#contact .contact-buttons').addClass('w85i');
+            }
         }
         else{
-            $('.p-hero .p-tags ul').css({'padding-left':'30px'});
+            $('.p-hero .p-tags ul').css({'padding-left':'18px'});
         }
     }
     else {
