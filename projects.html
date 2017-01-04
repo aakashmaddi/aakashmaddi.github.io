@@ -2,6 +2,8 @@
 <html lang="en">
 <head><head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Aakash Maddi - UX Designer, Engineer and a Forward Thinker</title>
 
     <!--Favicons-->
@@ -9,18 +11,20 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet/less" type="text/css" href="styles.less" />
+    <link rel="stylesheet/less" type="text/css" href="styles-project.less" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400" rel="stylesheet">
 
     <!--Java Script -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <!--<script src="script.js" type="text/javascript"></script>-->
+    <script src="script.js" type="text/javascript"></script>
 
     <!--<script src="parallaxImg.js" type="text/javascript"></script>-->
 
 </head>
 <body>
     <!--Primary Navigation Starts-->
+    <div class="circle-puck" style="display: none;"><img src="Images/triangle.svg"></img></div>
     <nav class="nav-down" id="nav-primary">
         <ul>
             <li class="in"><a href="index.html#projects">PROJECTS</a></li>
@@ -30,6 +34,184 @@
             <li class="in"><a href="index.html#contact">REACH ME</a></li>
         </ul>
     </nav>
+
+    <nav class="nav-down" id="nav-primary-mobile">
+        <ul>
+
+            <li><a href="index.html"><img class="nav-logo" alt="Aakash Maddi's Logo" src="Images/logo_gray.png"></a></li>
+            <li class="in"><a class="a-link-mob" href="index.html#projects">PROJECTS</a></li>
+            <li class="in"><a class="a-link-mob" href="index.html#about_me">ABOUT ME</a></li>
+            <li class="in"><a class="a-link-mob" href="index.html#resume">RESUME</a></li>
+            <li class="in"><a class="a-link-mob" href="index.html#contact">REACH ME</a></li>
+        </ul>
+    </nav>
     <!--Primary Navigation Ends-->
+
+    <!--Projects begins-->
+
+    <div class="p-hero" id="p_hero">
+        <h1 class="p-hero-title">projects</h1>
+        <h3 class="p-hero-sub">I work on a myriad of ideas ranging from product concepts to Heuristic Evaluations. I always look for ideas that challenge humanity and define our next frontier.</h3>
+
+        <div class="p-button" id="behance"><a href="https://www.behance.net/aakashmaddi" target="_blank">GO TO MY BEHANCE</a></div>
+
+        <div class="p-tags">
+            <ul>
+                <li class="in"><a href="#p-apps">APPS</a></li>
+                <li class="in"><a href="#p-hci">UX / HCI</a></li>
+                <li class="in"><a href="#p-brand">BRANDING</a></li>
+                <li class="in"><a href="#p-misc">MISC.</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="separator">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <div class="pro" id="p-apps">
+        <p class="p-title">apps</p>
+
+        <div class="p-app in w50">
+            <img data-col="#EC7263" data-but-col="#B3574B" src="Images/Projects/app1.svg">
+            <p class="p-app-title">Movoo</p>
+            <p class="p-app-sub">A Concept for a personalized movie curation and suggestion app. Intelligent system that suggests you movies with your interests at heart.</p>
+
+            <div class="p-app-button"><a href="" target="_blank">VIEW ON BEHANCE</a></div>
+        </div><div class="p-app in w50">
+            <img data-col="#333333" data-but-col="#191816" src="Images/Projects/app2.png">
+            <p class="p-app-title">Instacollage</p>
+            <p class="p-app-sub">A redesigned UI for the popular photo editing app on Google Play store with more than 10 million downloads. A redefined focus to provide distraction free editing.</p>
+
+            <div class="p-app-button"><a href="https://www.behance.net/gallery/32786937/Instacollage" target="_blank">VIEW ON BEHANCE</a></div>
+        </div>
+        <div class="p-app in w50">
+        <img data-col="#B8DDF2" data-but-col="#AFD2E6" src="Images/Projects/app3.png">
+        <p class="p-app-title">Upsurge</p>
+        <p class="p-app-sub">A concept fitness companion app with personal nutritionists and trainers to help you achieve your fitness goals. It helps you embed fitness habits into your everyday with small tasks.</p>
+
+        <div class="p-app-button"><a href="https://www.behance.net/gallery/46934223/Upsurge-Life" target="_blank">VIEW ON BEHANCE</a></div>
+    </div><div class="p-app in w50">
+        <img data-col="#E6E6E6" data-but-col="#CCCCCC" src="Images/Projects/app4.png">
+        <p class="p-app-title" style="color: #666666">Save</p>
+        <p class="p-app-sub" style="color: #666666">Minimalist expense tracker app to help you stop overspending. Human behaviour to make you feel at home and intelligent system to track and control your expenditures automatically.</p>
+
+        <div class="p-app-button"><a href="https://www.behance.net/gallery/26277539/Save-Concept-expense-manager" target="_blank">VIEW ON BEHANCE</a></div>
+    </div>
+
+
+    </div>
+
+    <div class="separator">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <div class="pro" style="display: none;" id="p-hci">
+        <p class="p-title">ux / hci</p>
+
+        <!--<div class="p-app in w50">-->
+            <!--<img data-col="#EC7263" data-but-col="#B3574B" src="Images/Projects/app1.svg">-->
+            <!--<p class="p-app-title">Movoo</p>-->
+            <!--<p class="p-app-sub">A Concept for a personalized movie curation and suggestion app. Intelligent system that suggests you movies with your interests at heart.</p>-->
+
+            <!--<div class="p-app-button"><a href="" target="_blank">VIEW ON BEHANCE</a></div>-->
+        <!--</div><div class="p-app in w50">-->
+        <!--<img data-col="#333333" data-but-col="#191816" src="Images/Projects/app2.png">-->
+        <!--<p class="p-app-title">Instacollage</p>-->
+        <!--<p class="p-app-sub">A redesigned UI for the popular photo editing app on Google Play store with more than 10 million downloads. A redefined focus to provide distraction free editing.</p>-->
+
+        <!--<div class="p-app-button"><a href="" target="_blank">VIEW ON BEHANCE</a></div>-->
+    <!--</div>-->
+
+
+    </div>
+
+    <div class="separator" style="display: none;">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <div class="pro" id="p-brand">
+        <p class="p-title">branding</p>
+
+        <div class="p-app">
+            <img data-col="#242424" data-but-col="#ED553F" src="Images/Projects/brand1.png">
+            <p class="p-app-title">Personal Branding v1.0</p>
+            <p class="p-app-sub">As a designer, I took up a challenge to create a brand identity for myself. This is the first version of my branding project</p>
+
+            <div class="p-app-button"><a href="https://www.behance.net/gallery/32824227/Branding-Case-study" target="_blank">VIEW ON BEHANCE</a></div>
+        </div>
+        <!--<div class="p-app in w50">-->
+        <!--<img data-col="#333333" data-but-col="#191816" src="Images/Projects/app2.png">-->
+        <!--<p class="p-app-title">Instacollage</p>-->
+        <!--<p class="p-app-sub">A redesigned UI for the popular photo editing app on Google Play store with more than</p>-->
+
+        <!--<div class="p-app-button"><a href="" target="_blank">VIEW ON BEHANCE</a></div>-->
+    <!--</div>-->
+
+
+    </div>
+
+    <div class="separator" style="display: none;">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <div class="pro" style="display: none;" id="p-misc">
+        <p class="p-title">miscellaneous</p>
+
+        <div class="p-app in w50">
+            <img data-col="#EC7263" data-but-col="#B3574B" src="Images/Projects/app1.svg">
+            <p class="p-app-title">Movoo</p>
+            <p class="p-app-sub">A Concept for a personalized movie curation and suggestion app. Intelligent system that suggests you movies with your interests at heart.</p>
+
+            <div class="p-app-button"><a href="" target="_blank">VIEW ON BEHANCE</a></div>
+        </div><div class="p-app in w50">
+        <img data-col="#333333" data-but-col="#191816" src="Images/Projects/app2.png">
+        <p class="p-app-title">Instacollage</p>
+        <p class="p-app-sub">A redesigned UI for the popular photo editing app on Google Play store with more than 10 million downloads. A redefined focus to provide distraction free editing.</p>
+
+        <div class="p-app-button"><a href="" target="_blank">VIEW ON BEHANCE</a></div>
+    </div>
+
+
+    </div>
+
+
+    <!--Projects Ends-->
+
+    <!--Footer Starts-->
+    <footer>
+
+        <div class="footer-nav">
+            <ul class="w55">
+                <li class="in"><a href="#p_hero">TOP</a></li>
+                <li class="in"><a href="index.html#projects">PROJECTS</a></li>
+                <li class="in"><a target="_blank" href="https://www.behance.net/aakashmaddi">BEHANCE</a></li>
+                <li class="in"><a href="index.html#about_me">ABOUT ME</a></li>
+                <li class="in"><a href="index.html#resume">RESUME</a></li>
+                <li class="in"><a href="index.html#contact">REACH ME</a></li>
+            </ul>
+        </div>
+
+        <div class="in c-text">
+            <p><span>© 2016 Copyrights Reserved</span>, unless bribed with a Cheesecake.</p>
+        </div>
+
+        <div class="in fr c-text">
+            <p class="darkside">All the graphics were made with love and passion for the darkside.</p>
+        </div>
+    </footer>
+    <!--Footer Ends-->
 </body>
 </html>

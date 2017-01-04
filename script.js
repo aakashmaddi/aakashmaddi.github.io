@@ -1,28 +1,48 @@
-//Smooth Scrolling
-$(document).ready(function(){
-    // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
+// //Smooth Scrolling
+// $(document).ready(function(){
+//     // Add smooth scrolling to all links
+//     $("a").on('click', function(event) {
+//
+//         // Make sure this.hash has a value before overriding default behavior
+//         if (this.hash !== "") {
+//             // Prevent default anchor click behavior
+//             event.preventDefault();
+//
+//             // Store hash
+//             var hash = this.hash;
+//
+//             console.log(hash);
+//
+//             // Using jQuery's animate() method to add smooth page scroll
+//             // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+//             $('html, body').animate({
+//                 scrollTop: $(hash).offset().top
+//             }, 800, function(){
+//
+//                 // Add hash (#) to URL when done scrolling (default click behavior)
+//                 window.location.hash = hash;
+//             });
+//         } // End if
+//     });
+// });
 
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-            // Prevent default anchor click behavior
-            event.preventDefault();
 
-            // Store hash
-            var hash = this.hash;
-
-            // Using jQuery's animate() method to add smooth page scroll
-            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            }, 800, function(){
-
-                // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
-            });
-        } // End if
+//Smooth Scrolling updated
+$(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 800);
+                return false;
+            }
+        }
     });
 });
+
 
 //Circle puck click
 $(document).ready(function () {
@@ -31,7 +51,7 @@ $(document).ready(function () {
         $('.circle-puck').hide(100)
     });
 
-    if(screen.width<719){
+    if(screen.width<720){
         $('#nav-primary').hide();
         $('#nav-primary-mobile').show();
         $('.section-div').removeClass('in w55 w40');
@@ -39,10 +59,30 @@ $(document).ready(function () {
         $('.footer-nav ul').removeClass("w55");
 
         $("#proj").removeClass("fr");
+
+        $('.p-app').removeClass('in w50');
     }
     else {
         $('#nav-primary-mobile').hide();
     }
+
+    $('.p-app').each(function (i) {
+        var bg = $(this).find('img').attr('data-col');
+        var butBg = $(this).find('img').attr('data-but-col');
+
+        $(this).css({'background':bg});
+        $(this).find('.p-app-button').css({'background-color':butBg});
+
+        // $(this).find('.p-app-button').hover(function () {
+        //     $(this).find('a').css({'color':butBg});
+        // });
+
+        $(this).find('.p-app-button').mouseover(function() {
+            $(this).find('a').css({'color':butBg});
+        }).mouseout(function() {
+            $(this).find('a').css({'color':'#FFFFFF'});
+        });
+    })
 });
 
 
@@ -109,21 +149,6 @@ function hasScrolled() {
 //     lastScrollTop = st;
 //
 //
-// });
-
-//Parallax Image JS
-// $(document).on("ready", function() {
-//     parallaxImgScroll();
-// });
-
-// $(document).on("ready", function() {
-//     var parallaxSettings = {
-//         initialOpacity: 1, //from 0 to 1, e.g. 0.34 is a valid value. 0 = transparent, 1 = Opaque
-//         opacitySpeed: 0.1, //values from 0.01 to 1 -> 0.01: slowly appears on screen; 1: appears as soon as the user scrolls 1px
-//         pageLoader: true //creates a page loader. It is set "false" by default.
-//     };
-//
-//     parallaxImgScroll(parallaxSettings);
 // });
 
 
