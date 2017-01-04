@@ -61,6 +61,12 @@ $(document).ready(function () {
         $("#proj").removeClass("fr");
 
         $('.p-app').removeClass('in w50');
+        if(screen.width<=375){
+            $('.p-hero .p-tags ul').css({'padding-left':'12px'});
+        }
+        else{
+            $('.p-hero .p-tags ul').css({'padding-left':'30px'});
+        }
     }
     else {
         $('#nav-primary-mobile').hide();
