@@ -55,7 +55,14 @@ $(document).ready(function () {
        $(this).find('a').get(0).click();
     });
 
-    if(screen.width<720){
+    if($(document).outerWidth()>=1440){
+        $('#contact .contact-buttons, .footer-nav ul').removeClass('w55').addClass('w50');
+    }
+    // else {
+    //     $('#contact .contact-buttons, .footer-nav ul').removeClass('w50').addClass('w55');
+    // }
+
+    if($(document).outerWidth()<720){
         $('#nav-primary').hide();
         $('#nav-primary-mobile').show();
         $('.section-div').removeClass('in w55 w40');
