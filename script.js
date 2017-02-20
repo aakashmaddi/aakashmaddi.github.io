@@ -71,7 +71,7 @@ $(document).ready(function () {
 
         $("#proj").removeClass("fr");
 
-        $('.p-app').removeClass('in w50');
+        $('.p-app').removeClass('in w50 w25');
         if(screen.width<=375){
             $('#nav-primary-mobile ul li').css({'width':'75px'});
 
@@ -95,8 +95,15 @@ $(document).ready(function () {
     }
 
     $('.p-app').each(function (i) {
-        var bg = $(this).find('img').attr('data-col');
-        var butBg = $(this).find('img').attr('data-but-col');
+        if($(this).parent().attr("id") == "p-misc") {
+            console.log($('.p-app').parent());
+            var bg = $(this).find('.p-app-title').attr('data-col');
+            var butBg = $(this).find('.p-app-title').attr('data-but-col');
+        }
+        else {
+            bg = $(this).find('img').attr('data-col');
+            butBg = $(this).find('img').attr('data-but-col');
+        }
 
         $(this).css({'background':bg});
         $(this).find('.p-app-button').css({'background-color':butBg});
