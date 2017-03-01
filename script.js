@@ -62,6 +62,11 @@ $(document).ready(function () {
     //     $('#contact .contact-buttons, .footer-nav ul').removeClass('w50').addClass('w55');
     // }
 
+    $('#corporate-btn').on('click', function (e) {
+        e.preventDefault();
+        // $('#corporate-btn').find('a').html('COMING SOON');
+    });
+
     if($(document).outerWidth()<720){
         $('#nav-primary').hide();
         $('#nav-primary-mobile').show();
