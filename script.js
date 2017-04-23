@@ -101,7 +101,7 @@ $(document).ready(function () {
 
     $('.p-app').each(function (i) {
         if($(this).parent().attr("id") == "p-misc") {
-            console.log($('.p-app').parent());
+            // console.log($('.p-app').parent());
             var bg = $(this).find('.p-app-title').attr('data-col');
             var butBg = $(this).find('.p-app-title').attr('data-but-col');
         }
